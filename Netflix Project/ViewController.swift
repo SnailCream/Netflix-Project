@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         btnBusan.layer.cornerRadius = 55
         btnKing.layer.cornerRadius = 55
         
+        //모서리를 깎을 수 있는 권한 부여
+        btnWinter.clipsToBounds = true
+        btnBusan.clipsToBounds = true
+        btnKing.clipsToBounds = true
+        
     }
     
     //겨울왕국 버튼을 눌렀을 때
