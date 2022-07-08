@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //btn
     @IBOutlet weak var btnWinter: UIButton! //겨울왕국 버튼
     @IBOutlet weak var btnBusan: UIButton! //부산행 버튼
     @IBOutlet weak var btnKing: UIButton! //왕의남자 버튼
